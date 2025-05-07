@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil - MYPROBIOMA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #003366;
+    }
+
+    header {
+      background-color: #0b97a4;
+      padding: 1em 2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1em;
+    }
+
+    header img {
+      width: 120px;
+      height: auto;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      font-family: 'Rokkitt', serif;
+      color: #ffffff;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #002e4d;
+    }
+
+    nav a {
+      color: white;
+      padding: 1em 2em;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    nav a:hover {
+      background-color: #004d66;
+    }
+
+    .contenido {
+      padding: 2em;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .perfil {
+      background-color: #f0f8ff;
+      padding: 2em;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 3em;
+    }
+
+    .perfil h2 {
+      text-align: center;
+      color: #004d66;
+    }
+
+    .datos-usuario {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      margin-top: 2em;
+      font-size: 1em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .dato {
+      background: #e0f2f1;
+      padding: 1em;
+      border-radius: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #cce7e7;
+    }
+
+    .dato span {
+      font-weight: bold;
+      color: #003c4d;
+    }
+
+    footer {
+      background-color: rgba(0, 46, 77, 0.05);
+      text-align: center;
+      padding: 1em;
+    }
+
+    footer a {
+      margin: 0 1em;
+      color: #003366;
+      font-size: 1.5em;
+      transition: color 0.3s;
+    }
+
+    footer a:hover {
+      color: #006d77;
+    }
+
+    .boton-editar {
+      display: block;
+      margin: 1em auto 2em auto;
+      background-color: #0b97a4;
+      color: white;
+      border: none;
+      padding: 0.8em 1.5em;
+      border-radius: 6px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+    }
+
+    .boton-editar:hover {
+      background-color: #007a85;
+    }
+
+    .enlaces-perfil {
+      margin-top: 2em;
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+
+    .enlaces-perfil a {
+      text-decoration: none;
+      color: #004d66;
+      background-color: #e0f2f1;
+      padding: 1em;
+      border-radius: 6px;
+      font-weight: bold;
+      text-align: center;
+      border: 1px solid #cce7e7;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .enlaces-perfil a:hover {
+      background-color: #b2dfdb;
+      color: #003c4d;
+    }
+
+    .boton {
+      display: flex;
+      justify-self: flex-end;
+      margin-left: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo_empresa.png" alt="Logo de la empresa">
+    <h1><strong>MYPROBIOMA</strong></h1>
+  </header>
+
+  <nav>
+    <a href="mi_perfil.html">Mi perfil</a>
+    <a href="index.html">Inicio</a>
+    <a href="conocenos.html">Conócenos</a>
+    <a href="productos.html">Productos</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <div class="contenido">
+    <section class="perfil">
+      <h2>👤 Perfil de Usuario</h2>  
+      <div class="datos-usuario">
+        <div class="dato"><span>Nombre:</span> Juan Pérez</div>
+        <div class="dato"><span>Código de Cliente:</span> 550e8400-e29b-41d4-a716-446655440000</div>
+        <div class="dato"><span>Dirección de Envío:</span> Calle Principal #123, Ciudad, País</div>
+        <div class="dato"><span>Correo Electrónico:</span> juan.perez@example.com</div>
+        <div class="dato"><span>Última Fecha de Compra:</span> 15 de abril de 2025</div>
+        <div class="dato"><span>Plan Elegido:</span> Plan Premium</div>
+      </div>
+      
+      <div class="boton">
+      <button class="boton-editar">Editar</button>
+      </div>
+
+      <div class="enlaces-perfil">
+        <a href="#">Seguimiento del Envío</a>
+        <a href="#">Resultados de Mis Análisis</a>
+        <a href="#">Contenido Exclusivo</a>
+        <a href="#">Historial de Pedidos</a>
+        <a href="https://drive.google.com/file/d/13zBJV5mbXQtsEoPVr5cNUUBAm4n_KX0F/view?usp=share_link" target="_blank"> ¿Quieres registrar algún cambio? ¡Rellena el formulario!</a>
+      </div>
+    </section>
+  </div>
+  
+
+  <footer>
+    <p>&copy; 2025 MYPROBIOMA. Todos los derechos reservados.</p>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-tiktok"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <p>soporte@myprobioma.com</p>
+  </footer>
+
+</body>
+</html>

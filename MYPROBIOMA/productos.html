@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos - MYPROBIOMA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+  <style>
+    .slick-dots {
+  display: flex !important;
+  justify-content: center;
+  padding: 0;
+  margin-top: 1em;
+  position: relative;
+}
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #003366;
+    }
+
+    header {
+      background-color: #0b97a4;
+      padding: 1em 2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1em;
+    }
+
+    header img {
+      width: 120px;
+      height: auto;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      font-family: 'Rokkitt', serif;
+      color: #ffffff;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #002e4d;
+    }
+
+    nav a {
+      color: white;
+      padding: 1em 2em;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    nav a:hover {
+      background-color: #004d66;
+    }
+
+    .contenido {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .carousel {
+      width: 100%;
+      margin-bottom: 2em;
+      padding: 0 9em;
+      box-sizing: border-box;
+    }
+
+    .carousel img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .columnas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2em;
+      margin-bottom: 2em;
+    }
+
+    .columna {
+      flex: 1;
+      background-color: #f0f8ff;
+      padding: 1.5em;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .columna h2 {
+      color: #004d66;
+      margin-top: 0;
+    }
+
+    .columna p, .extra-info p {
+      font-size: 0.95em;
+      text-align: justify;
+      line-height: 1.5em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .extra-info {
+      background-color: #e0f2f1;
+      padding: 2em;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin-top: 2em;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .extra-info h2 {
+      color: #003c4d;
+    }
+
+    img.img4 {
+      width: 60%;
+      height: auto;
+      margin: 2em auto 0 auto;
+      display: block;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: rgba(0, 46, 77, 0.05);
+      text-align: center;
+      padding: 1em;
+    }
+
+    footer a {
+      margin: 0 1em;
+      color: #003366;
+      font-size: 1.5em;
+      transition: color 0.3s;
+    }
+
+    footer a:hover {
+      color: #006d77;
+    }
+    .precio {
+      font-weight: bold;
+    }
+
+    .elegir {
+      text-align: center;
+      font-size: 1.2em;
+    }
+    .tabla {
+      margin-bottom: 3em;;
+    }
+
+    .tabla_div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2em;
+    }
+
+    .servicios {
+      text-align: center;
+      font-size: 1.2em;
+      margin-bottom: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo_empresa.png" alt="Logo de la empresa">
+    <h1><strong>MYPROBIOMA</strong></h1>
+  </header>
+
+  <nav>
+    <a href="mi_perfil.html">Mi perfil</a>
+    <a href="index.html">Inicio</a>
+    <a href="conocenos.html">Conócenos</a>
+    <a href="productos.html">Productos</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <div class="contenido">
+    <section id="inicio">
+      <div class="carousel">
+        <div><img src="images/image_2.jpg" alt="Imagen 2"></div>
+        <div><img src="images/image_1.jpg" alt="Imagen 1"></div>
+        <div><img src="images/image_3.jpg" alt="Imagen 3"></div>
+      </div>
+
+      <div class="servicios ">
+        <p>En MYPROBIOMA sabemos que cada persona es única, y su microbioma también. Por eso, te ofrecemos dos niveles de análisis según la profundidad que necesites.</p>
+        <p>¡Elige el plan que mejor se adapte a tus necesidades y empieza tu transformacion intestinal!</p>
+      </div>
+
+      <div class="columnas">
+        <div class="columna">
+          <div style="text-align: center;">
+            <img src="images/capsulas.jpg" style="width: 50%; height: auto; border-radius: 10px; margin-bottom: 1em;">
+          </div>          
+          <h2>PLAN BÁSICO</h2>
+          <p>Ideal para empezar a conocer tu microbioma:</p>
+          <ul>
+            <li>Analizamos los tipos de bacterias que predominan en tu intestino y elaboramos un informe detallado sobre las principales familias y géneros que influyen en tu salud digestiva</li>
+            <li>Es una opción eficaz y asequible para obtener una visión general de tu ecosistema intestinal</li>
+          </ul>
+            <p>Recomendado para:</p>
+          <ul>  
+            <li>Personas que buscan una primera aproximación a su microbiota</li>
+            <li>Mejorar problemas comunes como hinchazón, tránsito intestinal irregular o digestiones pesadas</li>
+          </ul>
+        <p>Incluye 120 cápsulas, para 4 meses.</p>
+        <p class="precio">PVP: 199,99€</p>
+        </div>
+      
+        <div class="columna">
+          <div style="text-align: center;">
+            <img src="images/capsulas.jpg" style="width: 50%; height: auto; border-radius: 10px; margin-bottom: 1em;">
+          </div> 
+          <h2>PLAN PREMIUM</h2>
+          <p>Para quienes búscan una visión completa y precisa:</p>
+          <ul>
+            <li>Analizamos todo el ADN presente en la muestra, incluyendo bacterias, arqueas, virus, hongos y otros microorganismos, y elaboramos un informe ultra detallado sobre las especies y cepas identificadas y sus funciones genéticas</li>
+          </ul>
+          <p>Recomendado para:</p>
+          <ul>
+            <li>Personas con problemas digestivos crónicos o complejos</li>
+            <li>Deportistas de alto rendimiento que buscan optimizar su salud metabólica</li>
+            <li>Usuarios que quieren un conocimiento profundo y personalizado de su salud intestinal</li>
+          </ul>
+          
+        <p>Incluye 120 cápsulas, para 4 meses.</p>
+        <p class="precio">PVP: 499,99€</p>
+
+
+        </div>
+      </div>
+      </div>      
+      <div class="elegir">
+        <p>¿No sabes qué plan es mejor para ti? ¡Te ayudamos a elegir!</p>
+      </div>
+      <div class="tabla_div">
+      <img class='tabla' src="images/tabla.jpg" class="img4" alt="Imagen 4">
+      </div>
+      
+      </section>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 MYPROBIOMA. Todos los derechos reservados.</p>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-tiktok"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <p>soporte@myprobioma.com</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').slick({
+        autoplay: true,
+        dots: true,
+        arrows: false,
+        autoplaySpeed: 3000,
+      });
+    });
+  </script>
+</body>
+</html>
