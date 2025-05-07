@@ -28,11 +28,11 @@ Se trabajó en un diseño limpio, con colores suaves inspirados en el área de l
 ## 📂 Estructura del proyecto
 
 📁 src/
-┣ 📁 assets/ # Imágenes, íconos, etc.
-┣ 📁 components/ # Componentes reutilizables
-┣ 📄 index.html # Página principal
-┣ 📄 styles.css # Estilos globales
-┗ 📄 script.js # Funcionalidad JS
+- ┣ 📁 images/ # Imágenes, íconos, etc.
+- ┣ 📁 components/ # Componentes reutilizables
+- ┣ 📄 index.html # Página principal
+- ┣ 📄 styles.css # Estilos globales
+- ┗ 📄 script.js # Funcionalidad JS
 
 
 ## 🚀 Cómo visualizarlo
